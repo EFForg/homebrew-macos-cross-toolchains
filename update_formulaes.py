@@ -7,7 +7,7 @@ import sys
 import requests
 from jinja2 import Environment, DictLoader, select_autoescape
 
-REPO = os.getenv("REPOSITORY", "messense/homebrew-macos-cross-toolchains")
+REPO = os.getenv("REPOSITORY", "EFForg/homebrew-macos-cross-toolchains")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 session = requests.Session()
